@@ -26,6 +26,7 @@ _value = 0;
 		if(_vIndex != -1) then
 		{
 			_value = _value + (_val * ((__GETC__(sell_array) select _vIndex) select 1));
+			[_var, _val, true, false] call life_fnc_marketBuy
 		};
 	};
 } foreach (_vehicleInfo select 0);
