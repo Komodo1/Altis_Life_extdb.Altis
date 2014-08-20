@@ -387,7 +387,8 @@ class Life_Client_Core
 		class vehicleWeight {};
 		class deviceMine {};
 		class addVehicle2Chain {};
-		class vehProcessIllegal {};
+		class vehProcessIllegal {}; //Zamak Labo - Process
+		class vehDetect {}; //Zamak Labo - Detect
 		class vehInsure {};//added bloopis
 	};
 	
