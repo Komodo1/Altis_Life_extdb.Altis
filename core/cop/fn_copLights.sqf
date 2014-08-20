@@ -29,6 +29,7 @@ switch (typeOf _vehicle) do
 	case "B_MRAP_01_F":
 	{
 		_lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
+		call life_fnc_vehDetect; //Zamak Labo: activates detection script when siren is activated.
 	};
 
 	case "C_SUV_01_F":
